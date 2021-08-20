@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <title>мой говносайт</title>
+  <meta charset="utf-8">
+  <meta name="keywords" content="мой сайт, html, говносайт">
+  <meta name="description" content="это я учусь создавать сайты">
+  <link rel="shortcut icon" href="https://i.playground.ru/p/mjfkTsyfpzJ_nMRJATkY4w.png">
+  </head>
+    <body>
+переход на поисковик яндекс
+        <h1 id="ideveloper">Заголовок сайта Н1</h1>
+        <p>тут обычная информация, которая пишется под заголовком Н1, которая
+          выделяется тегом Р</p>
+          <h2>тут будет описано как делать разные форматы шрифта и как делать перенос</h2>
+          <p>чтобы сделать перенос, нам нужен тег br</p>
+        <P><b>описание р, основная. Жирное выделение - b</b>
+        <br><em> информация и т.д. Курсив - em</em></p>
+        <h2 id="yakor">гиперсылка на сайт</h2>
+        <p> прописываем тэг a с атрибутом href ="адрес сайта".Чтобы сайт
+          открывался в другом окне нужно добавить атрибут target="нижний
+          пробел blank" тэг закрываем.</p>
+        <a href="https://yandex.ru/" target="_blank">вот пример гиперссылки</a>
+        <h2>создаеие "якоря"-ссылки, которая ссылается на тэг на этой же страницы</h2>
+        <p>прописываем тэг а с атрибутом href="#ideveloper" Закрываем тэг а.
+          Между словами пишем слово которое будет якорем.
+          В другом тэге прописываем id=ideveloper</p>
+          <a href="#ideveloper">якорь</a>
+          <br><a href="#yakor">якорь эксперементальный</a>
+          <h2>как создавать список</h2>
+          <p>начало списка указывается с помощью тэга ul, в конце списка
+          нужно закрыть тэг. Элемент списка с помощью тэга li и его нужно
+          закрывать</p>
+          <h3>пример списка</h3>
+          <ul>
+            <li>первый элемент<a href="https://ru.wikipedia.org/wiki/Вода" target="_blank"> вода</a></li>
+            <li>второй элемент<a href="https://ru.wikipedia.org/wiki/Огонь" target="_blank"> огонь</a></li>
+            <li>третий элемент<a href="https://ru.wikipedia.org/wiki/Заглавная_страница" target="_blank"> земля</a></li>
+            <li>четвёртый элемент<a href="https://ru.wikipedia.org/wiki/Воздух" target="_blank"> воздух</a></li>
+            </ul>
+            <h2>горизотальная черта делается при помощи
+            тэга hr - закрывать тэг не нужно</h2>
+            <hr>
+            <h2><em>создаем таблицу</em></h2>
+            <p>начало и конец таблицы тэги table. Шапка таблицы тэг thead
+               открываем и закрываем. Тело ячеек тэг tbody открываем и закрываем
+              Низ таблицы - подвал тэг tfoot открываем и закрываем. Строка
+              обозначается тэгом tr. После тэг th название заголовок таблицы
+              его тоже закрываем. В теле таблицы используем тэг td.
+              Чтобы поглощать ячейки пишем тэг td и в нём атрибут
+              colspan и кол-во. Чтобы сделть рамку для таблицы в тэге
+              table прописываем атрибут border и задаём значение,
+              например 1.</p>
+
+            <h3><em>пример таблицы</em></h3>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Название фрукта</th>
+                  <th>Кол-во</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>яблоко</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>апельсин</td>
+                  <td>1</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="2">итог: 3</td>
+                </tr>
+              </tfoot>
+            </table>
+            <br>
+            <h3><em>ещё один пример</em></h3>
+
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>фамилия семьи</th>
+                  <th>кол-во человек</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Сильевы</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>Завировы</td>
+                  <td>5</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="2">итог: 10</td>
+                </tr>
+              </tfoot>
+            </table>
+            <hr>
+            <h2>картинки на странице</h2>
+            <p>делается при помощи тэга img, закрывать не нужно. Атрибут
+            к тэгу - scr. Атрибут уменьшения - width</p>
+
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>название элемента</th>
+                  <th>фото</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>огонь</td>
+                  <td><img src="https://proza.ru/pics/2019/12/12/795.jpg" width="100" height="50"></td>
+                </tr>
+                <tr>
+                  <td>земля</td>
+                  <td><img src="https://img2.goodfon.ru/wallpaper/nbig/0/e2/simvol-zemlya-the-last.jpg" width="100" height="50"></td>
+                </tr>
+                <tr>
+                  <td>вода</td>
+                  <td><img src="https://pic.xenomorph.ru/2011-03/1300028599_93922-2560x1440.jpg" width="100" height="50"></td>
+                </tr>
+                <tr>
+                  <td>воздух</td>
+                  <td><img src="https://static.wikia.nocookie.net/magicmagicinandaroundus/images/9/9f/C434e7e56e444eda8d2e6d11d85ebd22.jpg/revision/latest?cb=20200624171731&path-prefix=ru" width="100" height="50"></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <br>
+
+            <input type="text" name="" value="">
+
+
+    </body>
+
+
+</html>
